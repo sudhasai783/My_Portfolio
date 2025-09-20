@@ -28,6 +28,21 @@ const items = [
     img: 'project_3.png', // or resumeMatcherImg
     href: 'https://github.com/sudhasai783/Disney-plus-EDA-using-python',
   },
+  {
+    title: 'SQL Diabetes Data Analysis — Healthcare Analytics',
+    desc:
+      'End-to-end SQL project analyzing a diabetes hospitalization dataset. Built staging and analytic layers, cleaned and transformed data, and wrote queries to uncover insights on readmissions, length of stay, medications, and utilization. Delivered reproducible SQL scripts and a clean analytic view for BI dashboards.',
+    img: 'Sql.jpg', // replace with your project screenshot
+    href: 'https://github.com/sudhasai783/SQL_Diabetes_Data_Analysis', // update with your repo link
+  },
+  
+  {
+    title: 'House Price Prediction — Regression Models',
+    desc:
+      'Built an end-to-end machine learning pipeline on the Ames Housing dataset. Cleaned and preprocessed 2,900 records, performed feature engineering and EDA, and compared Linear, Ridge, Lasso, Random Forest, and Gradient Boosting models to predict sale prices with R² ≈ 0.92.',
+    img: 'Linear_Regression.png', // replace with your project screenshot
+    href: 'https://github.com/sudhasai783/House-Price-Prediction-Ames-Housing-Dataset-Linear-Regression', // update with your repo link
+  },  
 ]
 
 export default function Portfolio(){
